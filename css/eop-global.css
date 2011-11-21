@@ -1,0 +1,143 @@
+h1#page-title {
+  line-height: 1.16;
+}
+
+h2.block-title {
+  line-height: 1.1;
+  margin-bottom: 5px;
+}
+
+body {
+  color: #333;
+}
+
+
+/* HEADER */
+.site-name a {
+  font-size: 24px;
+}
+
+
+/* MAIN MENU */
+#zone-menu {
+  background: #7a5294;
+  padding: 5px 0 12px 0;
+}
+
+.zone-menu .region-menu {
+  margin: 0 2px;
+}
+
+.zone-menu ul li {
+  padding: 5px 0 2px 0;
+  margin: 5px 7px;
+  border-bottom: 4px solid #9674ab;
+}
+
+.zone-menu ul li a,
+.zone-menu ul li a:visited {
+  padding: 5px 0 2px 0;
+  font-weight: normal;
+  text-shadow: none;
+  color: #FFF;
+}
+
+.zone-menu ul li a:active,
+.zone-menu ul li a:hover,
+.zone-menu ul li a.active,
+.zone-menu ul li a.active-trail {
+  color: #FFF;
+  border-bottom: 4px solid #FFF;
+  text-decoration: none;
+}
+
+
+/* SECONDARY MENU */
+#block-menu-block-1 {
+  margin: 0 0 10px 0;
+}
+
+#region-sidebar-first {
+  background: #EFEAF2;
+  border-bottom: 10px solid #7A5294;
+  margin: 0 0 20px 0;
+  padding: 15px 0 20px 0;
+}
+
+#region-sidebar-first .block-inner {
+  padding: 0 15px;
+}
+
+.region-sidebar-first .menu-block-wrapper {
+  
+}
+
+.region-sidebar-first ul.menu {
+}
+
+.region-sidebar-first ul.menu li {
+  display: block;
+  padding: 2px 0;
+  margin: 0 0 7px 0;
+}
+
+.region-sidebar-first ul.menu li:hover,
+.region-sidebar-first ul.menu li.active,
+.region-sidebar-first ul.menu li.active-trail {
+  background-color: #FFF;
+}
+
+.region-sidebar-first ul.menu li a,
+.region-sidebar-first ul.menu li a:visited {
+  color: #7A5294;
+  font-weight: normal;
+  display: block;
+  margin-left: 10px;
+}
+
+.region-sidebar-first ul.menu li:hover a,
+.region-sidebar-first ul.menu li:active a,
+.region-sidebar-first ul.menu li.active a.active {
+  color: #4B116F;
+  text-decoration: none;
+}
+
+
+/* CONTENT */
+.region-content {
+  margin-top: 10px;
+}
+
+
+/* FOOTER */
+.zone-footer {
+  background: #FFF;
+  border: 1px solid #C9C9C9;
+}
+
+#region-footer-first {
+  margin: 0;
+  padding: 0;
+  background: #4B116F;
+  font-size: 11px;
+  width: 100%;
+}
+
+#region-footer-first p {
+  margin: 2px 0 2px 7px;
+}
+
+#region-footer-second {
+  margin: 7px;
+  padding: 0;
+}
+
+#block-uni-blocks-lowerfooter p {
+  color: #333;
+}
+
+#block-uni-blocks-lowerfooter a, 
+#block-uni-blocks-lowerfooter a:visited {
+  color: #4B116F;
+}
+
