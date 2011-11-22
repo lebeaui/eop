@@ -108,6 +108,10 @@ body {
   margin-top: 10px;
 }
 
+.block-main .block-inner {
+	margin-left: 10px;
+}
+
 
 /* FOOTER */
 .zone-footer {
