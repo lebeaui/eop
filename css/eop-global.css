@@ -20,6 +20,39 @@ body {
 
 /* MAIN MENU */
 #zone-menu {
+	background: #7a5294;
+}
+
+#zone-menu ul {
+	margin-bottom: 2px;
+}
+
+#zone-menu ul li {
+	display: inline-block;
+	padding: 0;
+	margin: 0 5px;
+	border-bottom: 4px solid #9674ab;
+}
+
+#zone-menu ul li a,
+#zone-menu ul li a:visited {
+	padding: 2px 0;
+	font-weight: normal;
+	color: #FFF;
+}
+
+#zone-menu ul li a:active,
+#zone-menu ul li a:hover,
+#zone-menu ul li a.active,
+#zone-menu ul li a.active-trail {
+	color: #FFF;
+	border-bottom: 4px solid #FFF;
+	text-decoration: none;
+}
+
+
+/* MAIN MENU - Default 
+#zone-menu {
   background: #7a5294;
   padding: 5px 0 12px 0;
 }
@@ -50,10 +83,10 @@ body {
   border-bottom: 4px solid #FFF;
   text-decoration: none;
 }
-
+*/
 
 /* SECONDARY MENU */
-#block-menu-block-1 {
+#block-menu-block-2 {
   margin: 0 0 10px 0;
 }
 
@@ -104,12 +137,13 @@ body {
 
 
 /* CONTENT */
-.region-content {
-  margin-top: 10px;
+.section-content {
+	margin-bottom: 20px;
 }
 
-.block-main .block-inner {
-	margin-left: 10px;
+#region-content {
+  margin-top: 10px;
+  margin-left: 15px;
 }
 
 
