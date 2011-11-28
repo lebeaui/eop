@@ -204,10 +204,12 @@ body {
 }
 
 /* SITE NAME IMAGES/LOGOS */
-.context-classic-upward-bound #cub-site-name {
-	width: 600px;
+.context-classic-upward-bound #cub-site-name,
+.context-iowa-mathematics-science-academy #imsa-site-name {
+	width: 700px;
 }
 
-.context-classic-upward-bound #cub-site-name img {
+.context-classic-upward-bound #cub-site-name img,
+.context-iowa-mathematics-science-academy #imsa-site-name img {
 	padding: 0 10px;
 }

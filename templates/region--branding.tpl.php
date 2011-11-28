@@ -23,7 +23,7 @@
         <?php endif; ?>
         <?php endif; ?>
         <div id="cub-site-name"><a href="/eop/classic-upward-bound"><img style="float:left;" src="/eop/sites/all/themes/eop/images/cub.png"/></a><h1 class="site-name"><a href="/eop/classic-upward-bound">Classic Upward Bound</a></h1></div>
-        <div id="imsa-site-name"><h1 class="site-name"><a href="/eop/iowa-mathematics-science-academy">Iowa Mathematics & Science Academy</a></h1></div>
+        <div id="imsa-site-name"><a href="/eop/iowa-mathematics-science-academy"><img style="float:left;" src="/eop/sites/all/themes/eop/images/imsalogo.gif"/></a><h1 class="site-name"><a href="/eop/iowa-mathematics-science-academy">Iowa Mathematics & Science Academy</a></h1></div>
         <div id="ets-site-name"><h1 class="site-name"><a href="/eop/educational-talent-search">Educational Talent Search</a></h1></div>
         <?php if ($site_slogan): ?>
         <?php $class = $site_slogan_hidden ? ' element-invisible' : ''; ?>
