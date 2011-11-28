@@ -179,3 +179,35 @@ body {
   color: #4B116F;
 }
 
+
+
+/* SITE NAME DIFFERENCES */
+.context-classic-upward-bound .site-name,
+.context-iowa-mathematics-science-academy .site-name,
+.context-educational-talent-search .site-name {
+	display: none;
+}
+
+#cub-site-name,
+#imsa-site-name,
+#ets-site-name {
+	display: none;
+}
+
+.context-classic-upward-bound #cub-site-name,
+.context-classic-upward-bound #cub-site-name .site-name,
+.context-iowa-mathematics-science-academy #imsa-site-name,
+.context-iowa-mathematics-science-academy #imsa-site-name .site-name,
+.context-educational-talent-search #ets-site-name,
+.context-educational-talent-search #ets-site-name .site-name {
+	display: block;
+}
+
+/* SITE NAME IMAGES/LOGOS */
+.context-classic-upward-bound #cub-site-name {
+	width: 600px;
+}
+
+.context-classic-upward-bound #cub-site-name img {
+	padding: 0 10px;
+}
