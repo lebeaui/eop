@@ -120,19 +120,40 @@ body {
   background-color: #FFF;
 }
 
-.region-sidebar-first ul.menu li a,
-.region-sidebar-first ul.menu li a:visited {
+.region-sidebar-first ul.menu li a {
   color: #7A5294;
   font-weight: normal;
   display: block;
   margin-left: 10px;
 }
 
-.region-sidebar-first ul.menu li:hover a,
-.region-sidebar-first ul.menu li:active a,
+.region-sidebar-first ul.menu li a:hover,
+.region-sidebar-first ul.menu li a.active,
 .region-sidebar-first ul.menu li.active a.active {
   color: #4B116F;
   text-decoration: none;
+}
+
+
+/* TERTIARY MENU */
+.region-sidebar-first ul.menu ul.menu {
+	margin: 5px 0 5px 15px;
+	padding: 0 5px 0 0;
+	line-height: 1.2;
+}
+
+.region-sidebar-first ul.menu ul.menu li {
+	margin: 0 0 3px 0;
+}
+
+.region-sidebar-first ul.menu ul.menu li a {
+	font-size: 12px;
+}
+
+.region-sidebar-first ul.menu ul.menu li a.active,
+.region-sidebar-first ul.menu ul.menu li a:hover {
+	color: #4b116f;
+	text-decoration: underline;
 }
 
 
@@ -148,49 +169,21 @@ body {
 
 
 /* FOOTER */
-.zone-footer {
-  background: #FFF;
-  border: 1px solid #C9C9C9;
-}
-
-#region-footer-first {
-  margin: 0;
-  padding: 0;
-  background: #4B116F;
-  font-size: 11px;
-  width: 100%;
-}
-
-#region-footer-first p {
-  margin: 2px 0 2px 7px;
-}
-
-#region-footer-second {
-  margin: 7px;
-  padding: 0;
-}
-
-#block-uni-blocks-lowerfooter p {
-  color: #333;
-}
-
-#block-uni-blocks-lowerfooter a, 
-#block-uni-blocks-lowerfooter a:visited {
-  color: #4B116F;
-}
 
 
 
 /* SITE NAME DIFFERENCES */
 .context-classic-upward-bound .site-name,
 .context-iowa-mathematics-science-academy .site-name,
-.context-educational-talent-search .site-name {
+.context-educational-talent-search .site-name,
+.context-educational-opportunity-center .site-name {
 	display: none;
 }
 
 #cub-site-name,
 #imsa-site-name,
-#ets-site-name {
+#ets-site-name,
+#eoc-site-name {
 	display: none;
 }
 
@@ -199,7 +192,9 @@ body {
 .context-iowa-mathematics-science-academy #imsa-site-name,
 .context-iowa-mathematics-science-academy #imsa-site-name .site-name,
 .context-educational-talent-search #ets-site-name,
-.context-educational-talent-search #ets-site-name .site-name {
+.context-educational-talent-search #ets-site-name .site-name,
+.context-educational-opportunity-center #eoc-site-name,
+.context-educational-opportunity-center #eoc-site-name .site-name {
 	display: block;
 }
 
@@ -211,5 +206,9 @@ body {
 
 .context-classic-upward-bound #cub-site-name img,
 .context-iowa-mathematics-science-academy #imsa-site-name img {
-	padding: 0 10px;
+	padding: 0 15px 3px 0;
+}
+
+.context-iowa-mathematics-science-academy #imsa-site-name img {
+	padding-top: 8px;
 }
